@@ -3,28 +3,93 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Privacy policy for TrackWeave: Train Yard Puzzle.">
-  <title>Privacy Policy · TrackWeave</title>
-  <link rel="stylesheet" href="style.css">
+  <meta name="description" content="Privacy policy for the TrackWeave: Train Yard Puzzle Android app.">
+  <title>Privacy Policy · TrackWeave: Train Yard Puzzle</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --background: #f4f2ec;
+      --card: #fffefa;
+      --primary: #1f4532;
+      --soft: #e3ede7;
+      --ink: #1c2420;
+      --muted: #526059;
+      --border: #e2dfd7;
+      background: var(--background);
+      color: var(--ink);
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; font: 1rem/1.7 system-ui, sans-serif; }
+    .container { width: min(100% - 2rem, 47.5rem); margin: 1.5rem auto 3rem; }
+    .top-bar { margin-bottom: 1rem; }
+    .brand { color: var(--primary); font-size: 1.06rem; font-weight: 750; }
+    a:focus-visible { outline: 2px solid var(--primary); outline-offset: 3px; }
+    .card {
+      padding: clamp(1.125rem, 4vw, 2rem);
+      border: 1px solid var(--border);
+      border-radius: 1.25rem;
+      background: var(--card);
+      box-shadow: 0 4px 20px #1c24200a;
+    }
+    h1, h2 { color: var(--primary); line-height: 1.25; }
+    h1 { margin: 0 0 .65rem; font-size: clamp(1.7rem, 5vw, 2.1rem); }
+    h2 { margin: 1.55rem 0 .5rem; font-size: 1.13rem; }
+    p { margin: 0 0 .75rem; }
+    .meta { margin-bottom: 1.4rem; padding-bottom: 1.1rem; color: var(--muted); border-bottom: 1px solid var(--border); }
+    a { color: var(--primary); text-underline-offset: .16em; overflow-wrap: anywhere; }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --background: #151d1a;
+        --card: #1d2924;
+        --primary: #bfe0cc;
+        --soft: #2c4037;
+        --ink: #f1f5ef;
+        --muted: #bdcbc3;
+        --border: #394c43;
+      }
+    }
+  </style>
 </head>
 <body>
-  <header>
-    <a class="brand" href="index.html"><img src="logo.png" width="44" height="44" alt="">TrackWeave</a>
-    <h1>Privacy Policy</h1>
-    <nav aria-label="Site navigation">
-      <a href="index.html">Home</a>
-      <a href="privacy.html" aria-current="page">Privacy Policy</a>
-      <a href="support.html">Support</a>
-    </nav>
-  </header>
-  <main>
-    <section>
-      <h2>TrackWeave: Train Yard Puzzle</h2>
-      <p>TrackWeave saves chapter progress, stars, daily challenge completions, revealed hints, and preferences on your device. The game has no accounts, advertisements, analytics, or developer collection of gameplay data.</p>
-      <p>You can erase the saved game data by clearing the app's storage in Android settings or by uninstalling the app.</p>
-      <p>If you choose Send feedback, TrackWeave opens your email app with the recipient and subject filled in. If you send the message, the developer receives your email address and the information you include. Your email provider handles the message.</p>
-      <p>For privacy questions, contact the developer at <a href="mailto:hukaimiao@gmail.com">hukaimiao@gmail.com</a>.</p>
-    </section>
-  </main>
+  <div class="container">
+    <header class="top-bar">
+      <div class="brand"><span aria-hidden="true">🚂</span> TrackWeave</div>
+    </header>
+    <main>
+      <article class="card" id="policy-en" lang="en" aria-labelledby="title-en">
+        <h1 id="title-en">Privacy Policy</h1>
+        <p class="meta">
+          <strong>Application</strong> TrackWeave: Train Yard Puzzle<br>
+          <strong>Developer contact</strong> <a href="mailto:hukaimiao@gmail.com">hukaimiao@gmail.com</a><br>
+          <strong>Effective date</strong> <time datetime="2026-11-26">November 26, 2026</time>
+        </p>
+
+        <h2>1. About this policy</h2>
+        <p>This policy explains how the TrackWeave Android app handles information during play and when you choose to use feedback, result sharing, or an external link.</p>
+        <p>Gameplay runs offline using on-device processing. The app requests zero Android runtime permissions and works without an account, advertising, analytics, or crash-reporting services.</p>
+
+        <h2>2. Game data on your device</h2>
+        <p>The app keeps your level progress, stars, daily challenge records, hint use, draft layouts, replays, tutorial progress, train skin selection, and preferences in its private Android storage using Jetpack DataStore. These records let you resume play, revisit results, and keep your chosen settings. The records stay on your device during normal gameplay.</p>
+        <p>Game records are kept locally while you use the app. The app may replace or discard older records as you play. Clearing the app’s storage in Android settings or uninstalling the app removes its local records. A result image generated for sharing is kept in the app’s cache, which you can also clear in Android settings.</p>
+
+        <h2>3. Optional email feedback and result sharing</h2>
+        <p>Choosing <strong>Send feedback</strong> opens your email app with a recipient and subject filled in. If you send the message, the developer receives your email address and whatever you include. The developer uses that information to respond and may keep the correspondence while handling your request and for any applicable obligations. Your email provider also processes the message.</p>
+        <p>Choosing <strong>Share result</strong> prepares a result image or caption containing your challenge details and star rating. Android lets you choose which app receives it. Any later posting, storage, or forwarding is handled by the recipient and the service you choose.</p>
+
+        <h2>4. Viewing this policy in a browser</h2>
+        <p>When you open this policy in a browser, the browser and hosting provider handle the web request. If this page is served by GitHub Pages, GitHub logs visitor IP addresses for security. <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages#data-collection">GitHub Pages data collection</a></p>
+
+        <h2>5. Children’s privacy</h2>
+        <p>Gameplay does not ask players for personal information. If you are a parent or guardian and think a child sent personal information by email, contact the developer to request that it be removed.</p>
+
+        <h2>6. Changes to this policy</h2>
+        <p>If the app’s data practices change, the updated policy and its effective date will appear on this page.</p>
+
+        <h2>7. Contact</h2>
+        <p>For privacy questions or to request deletion of information you sent by email, contact <a href="mailto:hukaimiao@gmail.com">hukaimiao@gmail.com</a>.</p>
+      </article>
+
+    </main>
+  </div>
 </body>
 </html>
